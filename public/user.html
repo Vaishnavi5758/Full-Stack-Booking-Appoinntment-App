@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="user.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    
+    
+   
+</body>
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/"  >Home</a></li>
+            <li><a href="/showallusers.html" id="showallusers" > Show All Users</a></li>
+            <!-- <li><button id="showallusers"></button></li> -->
+
+            <li><a href="/list">List></a></li>
+            <!-- <li><button href="/list">List></a></li> -->
+        </ul>
+    </nav>
+    <h2>Log in Page</h2>
+    <form  method="post" id="userForm">
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" name="userName" required><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <script src="./user.js"></script>
+</body>
+</html>
